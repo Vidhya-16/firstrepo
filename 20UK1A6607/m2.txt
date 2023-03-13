@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+<head>
+<title> sample registration page<title>
+</head>
+<body>
+<h1>Registration form</h1>
+<form>
+Enter user name:
+<input type="text" name="name"><br><br>
+Enter password:
+<input type="password" name="pass"><br><br>
+Enter email:
+<input type="email" name="em"><br><br>
+Enter gender:
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<br>
+<input type="submit" value="register">
+</form>
+</body>
+</html>
+
+
+

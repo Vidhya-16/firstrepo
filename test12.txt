@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<title>sample</title>
+<script>
+function myfun()
+{
+alert("Your form is submitted successfully");
+}
+
+</script>
+</head>
+<body>
+<h1>Registeration form</h1>
+<form name="register" onsubmit="myfun()">
+Enter user name:
+<input type="text" name="name"><br><br>
+Enter password:
+<input type="password" name="pass"><br><br>
+Enter email:
+<input type="email" name="em"><br><br>
+Enter gender:
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<br>
+<input type="submit" value="register">
+</body>
+</html>
